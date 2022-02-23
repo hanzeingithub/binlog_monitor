@@ -11,6 +11,7 @@ const (
 	Delete  ActionType = 1
 	Insert  ActionType = 2
 	Update  ActionType = 3
+	Any     ActionType = 4
 )
 
 func GetAction(str string) ActionType {
